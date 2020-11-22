@@ -1,0 +1,16 @@
+{
+    "name": "de-swebhosting/createorder",
+    "description": "This module allows the creation of an order for a user in the administration.",
+    "type": "oxideshop-module",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "De\\Swebhosting\\Createorder\\": "./src/"
+        }
+    },
+    "extra": {
+        "oxideshop": {
+            "target-directory": "swh/createorder"
+        }
+    }
+}
