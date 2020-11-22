@@ -1,5 +1,5 @@
 {
-    "name": "de-swebhosting/createorder",
+    "name": "de-swebhosting/oxid-module-createorder",
     "description": "This module allows the creation of an order for a user in the administration.",
     "type": "oxideshop-module",
     "license": "GPL-3.0-or-later",
