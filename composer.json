@@ -5,12 +5,16 @@
     "license": "GPL-3.0-or-later",
     "autoload": {
         "psr-4": {
-            "De\\Swebhosting\\Createorder\\": "./src/"
+            "De\\Swebhosting\\Createorder\\": "../../../source/modules/swh/createorder/src/"
         }
     },
     "extra": {
         "oxideshop": {
-            "target-directory": "swh/createorder"
+            "target-directory": "swh/createorder",
+            "blacklist-filter": [
+                ".ide_helper.php",
+                "composer.json"
+            ]
         }
     }
 }
